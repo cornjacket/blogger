@@ -8,6 +8,9 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+    # create a new comment object since we will display a form in show view
+    @comment = Comment.new
+    @comment.article_id = @article.id
   end
 
   def new
