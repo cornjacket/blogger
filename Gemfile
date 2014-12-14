@@ -34,6 +34,7 @@ end
 
 gem "paperclip", "~> 3.5.2"
 
+gem 'sorcery'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
